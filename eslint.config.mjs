@@ -36,6 +36,13 @@ const eslintConfig = [
         },
       ],
       "tailwindcss/classnames-order": "warn",
+      "@typescript-eslint/consistent-type-imports": [
+        "error",
+        {
+          prefer: "type-imports",
+          disallowTypeAnnotations: true,
+        },
+      ],
     },
   },
 ];

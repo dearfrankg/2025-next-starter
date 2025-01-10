@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 import TodoApp from "@/features/todo-app";
 import { getTitle } from "@/lib/meta";

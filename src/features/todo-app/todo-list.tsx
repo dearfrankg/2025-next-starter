@@ -3,7 +3,7 @@
 import { nanoid } from "nanoid"; // Importing the nanoid library for generating unique IDs
 import { useState } from "react"; // Importing the useState hook from React
 
-import { Todo } from "@/types/todo"; // Importing the Todo type
+import type { Todo } from "@/types/todo"; // Importing the Todo type
 
 import { TodoItem } from "./todo-item"; // Importing the TodoItem component
 
