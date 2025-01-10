@@ -68,11 +68,6 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground h-screen;
   }
-}
-
-body {
-  height: 100vh;
-  background-color: rgb(16, 23, 42);
 }

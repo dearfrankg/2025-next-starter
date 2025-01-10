@@ -31,7 +31,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
           onChange={() => toggleComplete(todo.id)} // Toggle completion status on change
         />
         <span
-          className={`ml-2 text-sm text-white ${
+          className={`ml-2 font-[family-name:var(--font-geist-mono)] text-sm text-white ${
             todo.isCompleted ? "text-gray-500 line-through" : "text-gray-900" // Apply different styles if the todo is completed
           }`}
         >
@@ -43,7 +43,7 @@ export const TodoItem: React.FC<TodoItemProps> = ({
           {todo.text} {/* Display the todo text */}
         </span>
       </div>
-      <div>
+      <div className="flex items-center">
         <button
           onClick={() => deleteTodo(todo.id)} // Delete the todo on button click
           className="text-red-500 opacity-0 transition-opacity duration-200 group-hover:opacity-100"
